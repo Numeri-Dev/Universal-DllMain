@@ -125,25 +125,25 @@ build.bat --clean
 
 ## 🎓 Supported Injection Methods
 
-✅ LoadLibrary / LoadLibraryEx
-✅ Manual Mapping
-✅ Reflective DLL Injection
-✅ Thread Hijacking
-✅ Kernel APC Injection
-✅ CreateRemoteThread
-✅ QueueUserAPC
-✅ SetWindowsHookEx
-✅ LdrLoadDll / LdrpLoadDll
+✅ LoadLibrary / LoadLibraryEx  
+✅ Manual Mapping  
+✅ Reflective DLL Injection  
+✅ Thread Hijacking  
+✅ Kernel APC Injection  
+✅ CreateRemoteThread  
+✅ QueueUserAPC  
+✅ SetWindowsHookEx  
+✅ LdrLoadDll / LdrpLoadDll  
 
 **Every method uses the same DLL - no changes needed!**
 
 ## 💡 Pro Tips
 
-1. **For production**: Use Release + CRT build
-2. **For stealth**: Use Release + No-CRT build
-3. **For debugging**: Use Debug + CRT build
-4. **Test both**: x86 and x64 architectures
-5. **Read SKILL.md files**: For additional patterns and best practices
+1. **For production**: Use Release + CRT build  
+2. **For stealth**: Use Release + No-CRT build  
+3. **For debugging**: Use Debug + CRT build  
+4. **Test both**: x86 and x64 architectures  
+5. **Read SKILL.md files**: For additional patterns and best practices  
 
 ---
 
